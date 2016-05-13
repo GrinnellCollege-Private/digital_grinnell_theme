@@ -423,11 +423,15 @@ function Digital_Grinnell_art_label($variables) {
   elseif ($element['#title_display'] == 'invisible') {
     $attributes['class'] = 'element-invisible';
   }
-  $art_class = $element['#type'] == 'checkbox' ? ' art-checkbox' : ($element['#type'] == 'radio' ? ' art-radiobutton' : '');
-  if (isset($attributes['class']))
-	$attributes['class'] .= $art_class;
-  else
-    $attributes['class'] = $art_class;
+  if (isset($element['#type'])) {   // MAM introduced this on 13-May-2016 for Islandora Webform issues.
+    $art_class = $element['#type'] == 'checkbox' ? ' art-checkbox' : ($element['#type'] == 'radio' ? ' art-radiobutton' : '');
+    if (isset($attributes['class'])) {
+      $attributes['class'] .= $art_class;
+    }
+    else {
+      $attributes['class'] = $art_class;
+    }
+  }
 
   if (!empty($element['#id'])) {
     $attributes['for'] = $element['#id'];

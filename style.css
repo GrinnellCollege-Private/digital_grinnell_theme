@@ -3179,3 +3179,7 @@ div.webform-links {
 .untag-link {
   display: none;
 }
+
+.tag-link {
+  display: none;
+}

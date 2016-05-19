@@ -131,8 +131,8 @@ function Digital_Grinnell_preprocess_page(&$vars) {
       // it's properties to yield a new "Print a Cover Sheet" button.
       $vars['tabs'][] = dg7_controls_printable_cover_sheet($pid, $vars['tabs'][0]);
       // Copy $vars['tabs'][0], the "View" button, as an additional menu_primary_local_tasks tab and change
-      // it's properties to yield a new "Transcribe/Caption This Object" button.
-      $vars['tabs'][] = dg7_controls_transcribe($pid, $vars['tabs'][0]);
+      // it's properties to yield a new "Add an Annotation" button.
+      $vars['tabs'][] = dg7_controls_add_an_annotation($pid, $vars['tabs'][0]);
       // Copy $vars['tabs'][0], the "View" button, as an additional menu_primary_local_tasks tab and change
       // it's properties to yield a new "Download This Object" button.
       // $vars['tabs'][] = dg7_controls_download_object($pid, $vars['tabs'][0]);

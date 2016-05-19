@@ -3170,3 +3170,12 @@ div.webform-links {
   border: #9E4024 2px solid;
 }
 
+/* Hide the annotation form links */
+
+.webform-link {
+  display: none;
+}
+
+.untag-link {
+  display: none;
+}

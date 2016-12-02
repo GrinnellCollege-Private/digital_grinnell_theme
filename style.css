@@ -1,5 +1,16 @@
 /* Created by Artisteer v4.2.0.60623 */
 
+.form-managed-file .form-file, .form-managed-file .form-submit {   /* MAM better looking form buttons */
+  margin: 4px 0;
+}
+
+fieldset, fieldset legend {   /* MAM better looking webforms */
+  display: block;
+  margin: 10px 0px;
+  border: black 1px solid;
+  padding: 7px 12px !important;
+  border-radius: 5px;
+}
 
 div.islandora-book-metadata {   /* MAM better spacing of book metadata display */
   margin-top: 1em;
@@ -3168,5 +3179,20 @@ div.webform-links {
   padding: 1px 1em 1em 1em;;
   margin: -5px;
   border: #9E4024 2px solid;
+}
+
+
+/* Hide the annotation form links */
+
+.webform-link {
+  display: none;
+}
+
+.untag-link {
+  display: none;
+}
+
+.tag-link {
+  display: none;
 }
 

@@ -1,5 +1,70 @@
 /* Created by Artisteer v4.2.0.60623 */
 
+/* Color additions for Oral Histories */
+div.tier.active span {
+  font-weight: bold;
+}
+div.tier.active span,
+div.tier.active span span.oh_speaker_text {
+  color: black !important;
+}
+div.tier.active span span.oh_speaker_text {
+  font-weight: normal !important;
+}
+span.oh_speaker_text {
+  color: #ffff00 !important;     /* yellow */
+}
+span.oh_speaker_1 {
+  display: block;
+  color: #00ffff;     /* aqua */
+}
+span.oh_speaker_2 {
+  display: block;
+  color: #80ff00;     /* bright green */
+}
+span.oh_speaker_3 {
+  display: block;
+  color: #ff0000;     /* bright red */
+}
+span.oh_speaker_4 {
+  display: block;
+  color: #ff00ff;     /* fuscia */
+}
+span.oh_speaker_5 {
+  display: block;
+  color: #ffbf00;     /* orange */
+}
+
+
+span#authorization-forms-button {
+    display: block;
+    background: #9e4024;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 20px;
+    color: white !important;
+    width: 220px;
+    text-align: center;
+    font-style: bold;
+}
+
+span.authorization-forms-button {
+    display: inline-block;
+    background: #9e4024;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 20px; 
+    text-align: center;
+    width: 220px;
+}
+
+span.authorization-forms-button a {
+    color: white !important;
+    font-style: bold;
+}
+
 .form-managed-file .form-file, .form-managed-file .form-submit {   /* MAM better looking form buttons */
   margin: 4px 0;
 }
@@ -3181,7 +3246,6 @@ div.webform-links {
   border: #9E4024 2px solid;
 }
 
-
 /* Hide the annotation form links */
 
 .webform-link {
@@ -3194,5 +3258,6 @@ div.webform-links {
 
 .tag-link {
   display: none;
+<<<<<<< HEAD
 }
 

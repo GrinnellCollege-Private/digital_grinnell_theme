@@ -2,6 +2,41 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic');
 
+/* Color additions for Oral Histories */
+div.tier.active span {
+  font-weight: bold;
+}
+div.tier.active span,
+div.tier.active span span.oh_speaker_text {
+  color: black !important;
+}
+div.tier.active span span.oh_speaker_text {
+  font-weight: normal !important;
+}
+span.oh_speaker_text {
+  color: #ffff00 !important;     /* yellow */
+}
+span.oh_speaker_1 {
+  display: block;
+  color: #00ffff;     /* aqua */
+}
+span.oh_speaker_2 {
+  display: block;
+  color: #80ff00;     /* bright green */
+}
+span.oh_speaker_3 {
+  display: block;
+  color: #ff0000;     /* bright red */
+}
+span.oh_speaker_4 {
+  display: block;
+  color: #ff00ff;     /* fuscia */
+}
+span.oh_speaker_5 {
+  display: block;
+  color: #ffbf00;     /* orange */
+}
+
 span#authorization-forms-button {
     display: block;
     background: #9e4024;
@@ -9,9 +44,25 @@ span#authorization-forms-button {
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px 20px;
-    color: white;
+    color: white !important;
     width: 220px;
     text-align: center;
+    font-style: bold;
+}
+
+span.authorization-forms-button {
+    display: inline-block;
+    background: #9e4024;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 20px; 
+    text-align: center;
+    width: 220px;
+}
+
+span.authorization-forms-button a {
+    color: white !important;
     font-style: bold;
 }
 
@@ -3196,10 +3247,6 @@ div.webform-links {
   border: #9E4024 2px solid;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cfb31f80b1a669a12d5b485cae77d52f1ba406f
 /* Hide the annotation form links */
 
 .webform-link {
@@ -3212,9 +3259,5 @@ div.webform-links {
 
 .tag-link {
   display: none;
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> 6cfb31f80b1a669a12d5b485cae77d52f1ba406f

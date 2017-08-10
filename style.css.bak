@@ -1,79 +1,26 @@
 /* Created by Artisteer v4.2.0.60623 */
 
-/* Additions for Islandora Solr Collection View products */
-
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper {
-  margin: 5px;
-}
-
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left {
-  display: table-cell;
-  width: 150px;
-  margin: 10px;
-}
-
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left a img {
-  width: 150px !important;
-}
-
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right {
-  display: table-cell;
-  vertical-align: top;
-  padding: 15px;
-}
-
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right div.collection-value {
-  white-space: normal;
-}
-
-#collection-view-teaser-pull-quote {
-  font-weight: bold;
-  padding: 10px;
-  font-style: italic;
-  width: 90%;
-}
-
-#collection-view-teaser-pull-quote:before, #collection-view-teaser-pull-quote:after {
-  content: '"';
-}
-
-div.collection-value:empty {
-  display: none;
-}
-
 /* Color additions for Oral Histories */
-div.tier.active span {
-  font-weight: bold;
-}
-div.tier.active span,
-div.tier.active span span.oh_speaker_text {
+div.tier.active span.oh_speaker span {
   color: black !important;
 }
-div.tier.active span span.oh_speaker_text {
-  font-weight: normal !important;
-}
-span.oh_speaker_text {
-  color: #ffff00 !important;     /* yellow */
+span.oh_speaker {
+  display: block;
 }
 span.oh_speaker_1 {
-  display: block;
-  color: #00ffff;     /* aqua */
+  color: #00C0E0;
 }
 span.oh_speaker_2 {
-  display: block;
-  color: #80ff00;     /* bright green */
+  color: #62a60a;
 }
 span.oh_speaker_3 {
-  display: block;
-  color: #ff0000;     /* bright red */
+  color: #970F00;
 }
 span.oh_speaker_4 {
-  display: block;
-  color: #ff00ff;     /* fuscia */
+  color: #aaaaff;
 }
 span.oh_speaker_5 {
-  display: block;
-  color: #ffbf00;     /* orange */
+  color: #0000cc;
 }
 
 

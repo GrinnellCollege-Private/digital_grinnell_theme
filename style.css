@@ -1,5 +1,7 @@
 /* Created by Artisteer v4.2.0.60623 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic');
+
 /* Additions for Islandora Solr Collection View products */
 
 div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper {
@@ -14,6 +16,7 @@ div.view.view-collection.view-id-collection.view-display-id-block div.view-conte
 
 div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left a img {
   width: 150px !important;
+  max-height: 200px;
 }
 
 div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right {
@@ -75,7 +78,6 @@ span.oh_speaker_5 {
   display: block;
   color: #ffbf00;     /* orange */
 }
-
 
 span#authorization-forms-button {
     display: block;
@@ -263,7 +265,7 @@ form#user-login-form .form-submit.art-button.form-button-disabled {
    background: #FFFFFF;
    margin:0 auto;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    position: relative;
@@ -280,7 +282,7 @@ form#user-login-form .form-submit.art-button.form-button-disabled {
 table, ul.art-hmenu
 {
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -323,7 +325,7 @@ ul.art-vmenu a
 .art-postcontent a:hover,
 .art-postcontent a.hovered
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 125%;
 }
 
@@ -344,24 +346,24 @@ h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover,
 .art-slogan, .art-slogan a, .art-slogan a:link, .art-slogan a:visited, .art-slogan a:hover,
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    /*line-height: 120%;*/
 }
 
 h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover {
-   font-weight: 900;
+   font-weight: 800;
    color: #9E4024;
    font-size: 30px;
 }
 
 h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover {
-   font-weight: 900;
+   font-weight: 800;
    color: #9E4024;
    font-size: 24px;
 }
 
-h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover {
-   font-weight: 900;
+h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active {
+   font-weight: 800;
    color: #9E4024;
    font-size: 18px;
 }
@@ -386,21 +388,21 @@ h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover {
 
 .art-postcontent a, .art-postcontent a:link
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #000000;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #000000;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: underline;
    color: #9E4024;
 }
@@ -827,7 +829,7 @@ ul.art-hmenu>li>a
 .art-hmenu>li>a:hover
 {
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
@@ -943,7 +945,7 @@ ul.art-hmenu li li ul>li:last-child
    line-height: 24px;
    color: #303030;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
 }
@@ -957,7 +959,7 @@ ul.art-hmenu li li ul>li:last-child
    line-height: 24px;
    color: #303030;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
 }
@@ -1184,7 +1186,7 @@ div.art-block img
 {
 /*   color: #000000;
    font-size: 16px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    margin: 0 5px;*/
@@ -1200,7 +1202,7 @@ div.art-block img
    margin:0 auto;
    color: #0A0A0A;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 175%;
@@ -1215,7 +1217,7 @@ div.art-block img
 {
    color: #0A0A0A;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 175%;
@@ -1229,21 +1231,21 @@ div.art-block img
 .art-blockcontent a, .art-blockcontent a:link
 {
    color: #242424;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
    color: #8A8A8A;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:hover, .art-blockcontent a.hover
 {
    color: #C5231B;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 .art-block ul>li:before
@@ -1267,7 +1269,7 @@ div.art-block img
 .art-block li
 {
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 175%;
    color: #424242;
    margin: 5px 0 0 10px;
@@ -1299,7 +1301,7 @@ button.art-button
 {
    text-decoration: none;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    position:relative;
@@ -1335,7 +1337,7 @@ input, select, textarea, a.art-search-button span
 {
    vertical-align: middle;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1395,7 +1397,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
    padding: 0px 4px;   /* MAM modified from 'padding: 4px 0;' on 18-Sept-2015 */
    color: #262626 !important;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-shadow: none;
@@ -1409,7 +1411,7 @@ input.art-error, textarea.art-error
 input.art-error, textarea.art-error {
    color: #262626 !important;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1428,7 +1430,7 @@ form.art-search input[type="text"]
    box-sizing: border-box;
    color: #262626 !important;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1495,7 +1497,7 @@ label.art-checkbox
 {
    cursor: pointer;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 16px;
@@ -1549,7 +1551,7 @@ label.art-radiobutton
 {
    cursor: pointer;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 18px;                /* Increased from 12px MAM 18-Feb-2016 */
@@ -1630,7 +1632,7 @@ label.art-radiobutton.hovered:before
 {
    padding:10px 0;
    color: #262626;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
 }
 
 .art-comment
@@ -1646,7 +1648,7 @@ label.art-radiobutton.hovered:before
 .art-comment-header
 {
    color: #262626;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 100%;
 }
 
@@ -1657,13 +1659,13 @@ label.art-radiobutton.hovered:before
 .art-comment-header a:hover,
 .art-comment-header a.hovered
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 100%;
 }
 
 .art-comment-header a, .art-comment-header a:link
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    color: #871812;
@@ -1671,13 +1673,13 @@ label.art-radiobutton.hovered:before
 
 .art-comment-header a:visited, .art-comment-header a.visited
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #3B3B3B;
 }
 
 .art-comment-header a:hover,  .art-comment-header a.hovered
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #67130E;
 }
 
@@ -1688,24 +1690,24 @@ label.art-radiobutton.hovered:before
 .art-comment-content a:hover,
 .art-comment-content a.hovered
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
 }
 
 .art-comment-content a, .art-comment-content a:link
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #871812;
 }
 
 .art-comment-content a:visited, .art-comment-content a.visited
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #3B3B3B;
 }
 
 .art-comment-content a:hover,  .art-comment-content a.hovered
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #67130E;
 }
 
@@ -1746,7 +1748,7 @@ label.art-radiobutton.hovered:before
 .art-pager .active
 {
    line-height: normal;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #333333
 ;
@@ -2016,7 +2018,7 @@ ul#secondary-display-profiles li.first.last::before {  /* MAM added to suppress 
 
 .art-postcontent li, .art-post li, .art-textblock li
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #3B3B3B;
    margin: 3px 0 0 11px;
 }
@@ -2070,7 +2072,7 @@ blockquote
    padding:12px 12px 12px 49px;
    margin:10px 0 0 25px;
    color: #160403;*/
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: italic;
    text-align: left;
@@ -2084,7 +2086,7 @@ blockquote a:visited, .art-postcontent blockquote a:visited, .art-blockcontent b
 blockquote a:hover, .art-postcontent blockquote a:hover, .art-blockcontent blockquote a:hover, .art-footer blockquote a:hover
 {
    color: #160403;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: italic;
    text-align: left;
@@ -2115,31 +2117,31 @@ blockquote p,
 .Sorter a
 {
    position:relative;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #707070;
 }
 
 .Sorter a:link
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #707070;
 }
 
 .Sorter a:visited, .Sorter a.visited
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #707070;
 }
 
 .Sorter a:hover, .Sorter a.hover
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #545454;
 }
 
 .Sorter
 {
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color:#3B3B3B;
 }
 
@@ -2154,7 +2156,7 @@ blockquote p,
    position: relative;
    color: #292929;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 175%;
    text-align: center;
 }
@@ -2169,7 +2171,7 @@ blockquote p,
 {
    color: #292929;
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    line-height: 175%;
 }
 
@@ -2183,21 +2185,21 @@ blockquote p,
 .art-footer a:link
 {
    color: #9C9C9C;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:visited
 {
    color: #9C9C9C;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:hover
 {
    color: #E0281F;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    text-decoration: underline;
 }
 
@@ -2364,7 +2366,7 @@ blockquote p,
 .art-footer li
 {
    font-size: 14px;
-   font-family: Verdana, Helvetica, Sans-Serif;
+   font-family: "Open Sans", Verdana, Helvetica, Sans-Serif;
    color: #545454;
 }
 
@@ -3265,6 +3267,11 @@ div.webform-links {
 
 /* Overrides for Announcements */
 
+
+div.announcements {
+  padding: 5px;
+}
+
 .announcements  hr {
   width: 95%;
   text-align: left;
@@ -3299,6 +3306,5 @@ div.webform-links {
 
 .tag-link {
   display: none;
-<<<<<<< HEAD
 }
 

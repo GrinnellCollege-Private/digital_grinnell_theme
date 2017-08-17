@@ -20,7 +20,7 @@ $content = render($content);
     <div class="art-shapes">
 <div class="row">
 <div class="col-sm-8"><a href="/#" title="Click this Digital Grinnell logo to return to the Digital Grinnell home page." class="art-logo">
-    <img id="dg-logo" class="img-responsive" src="<?php echo Digital_Grinnell_art_get_full_path_to_theme().'/'; ?>images/newer_dg_banner.png" alt="DG: Digital Grinnell: Sharing and preserving Grinnell's heritage" />
+    <img id="dg-logo" class="img-responsive" src="<?php echo Digital_Grinnell_art_get_full_path_to_theme().'/'; ?>images/newer_dgadmin_banner.png" alt="DG: Digital Grinnell: Sharing and preserving Grinnell's heritage" />
 </a></div>
 
 <div class="col-sm-4"><a href="http://www.grinnell.edu" title="Click this Grinnell College logo to go to the Grinnell College home page." class="art-logo">

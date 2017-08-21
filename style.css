@@ -64,28 +64,28 @@
 
 /* Additions for Islandora Solr Collection View products */
 
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper {
+div.view.view-collection.view-id-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper {
   margin: 5px;
 }
 
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left {
+div.view.view-collection.view-id-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left {
   display: table-cell;
   width: 150px;
   margin: 10px;
 }
 
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left a img {
+div.view.view-collection.view-id-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left a img {
   width: 150px !important;
   max-height: 200px;
 }
 
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right {
+div.view.view-collection.view-id-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right {
   display: table-cell;
   vertical-align: top;
   padding: 15px;
 }
 
-div.view.view-collection.view-id-collection.view-display-id-block div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right div.collection-value {
+div.view.view-collection.view-id-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.right div.collection-value {
   white-space: normal;
 }
 

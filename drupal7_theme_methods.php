@@ -113,6 +113,7 @@ function Digital_Grinnell_preprocess_page(&$vars) {
    *
    * MAM additions made on December 17, 2014 for printable cover sheet and transcribe,
    * February 13, 2015 for awstats, and February 18, 2015 for object download.
+   * Added view OCR button on September 19. 2017.
    *
    * None of this works without the DG7 module enabled so check to be sure it is enabled
    * before proceeding!
@@ -136,6 +137,7 @@ function Digital_Grinnell_preprocess_page(&$vars) {
       // Copy $vars['tabs'][0], the "View" button, as an additional menu_primary_local_tasks tab and change
       // it's properties to yield a new "Download This Object" button.
       // $vars['tabs'][] = dg7_controls_download_object($pid, $vars['tabs'][0]);
+      $vars['tabs'][] = dg7_controls_view_OCR($pid, $vars['tabs'][0]);
     }
     // Add a call to dg7_print_awstats() for the target $pid and pass the returned
     // string for rendering as a $vars['stats'] array element in page--islandora--object.tpl.php.

@@ -662,7 +662,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
     position: absolute;
     top: 2px;
     width: 590px;
-    height: 148px;
+    height: 160px;
     background-image: url('images/object477178515.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -672,7 +672,9 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .default-responsive .art-object477178515
 {
   display: none;
-}.art-logo-1404032482
+}
+
+.art-logo-1404032482
 {  
   position: absolute;
   top: 42px;
@@ -691,7 +693,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-logo-1389322728
 {  
   position: absolute;
-  top: 20px;
+  top: 15px;
   left: 1.91%;
   margin-left: -11px !important;
   -webkit-transform: rotate(0deg);
@@ -1193,6 +1195,7 @@ ul.art-hmenu ul
    /*min-width: 800px;*/
    max-width: 1600px;
    z-index: auto !important;
+   top: 30px;
 }
 
 .art-layout-wrapper

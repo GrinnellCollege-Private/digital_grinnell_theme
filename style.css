@@ -686,10 +686,12 @@ li p, .art-postcontent li p, .art-blockcontent li p
       z-index: 101;
   width: 600px;
   height: 100px;
-}.art-logo-1389322728
+}
+
+.art-logo-1389322728
 {  
   position: absolute;
-  top: 7px;
+  top: 20px;
   left: 1.91%;
   margin-left: -11px !important;
   -webkit-transform: rotate(0deg);
@@ -699,7 +701,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   transform: rotate(0deg);
       z-index: 102;
   width: 600px;
-  height: 20px;
+  height: 25px !important;
 }
 
 .art-header

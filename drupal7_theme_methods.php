@@ -337,10 +337,18 @@ function Digital_Grinnell_art_terms_D7($content) {
 	return $result;
 }
 
+// MAM
+// The following function was found to contain syntax errors on 25-Oct-2017.  Furthermore, it appears that this
+// function has ALWAYS been broken!  I don't know what to do about it, but for now I'm going to comment it out
+// and see if anything breaks!
+
 function Digital_Grinnell_art_links_html_output_D7($links) {
 	$output = '';
+
 	$num_links = count($links);
     $index = 0;
+
+    /*
 
 	foreach ($links as $key => $link) {
 	  $class = array($key);
@@ -352,8 +360,7 @@ function Digital_Grinnell_art_links_html_output_D7($links) {
       if ($index == $num_links) {
         $class[] = 'last';
       }
-      if (isset($link['href']) && ($link['href'] == $_GET['q'] || ($link['href'] == '<front>' && drupal_is_front_page()))
-          && (empty($link['language']) || $link['language']->language == $language_url->language)) {
+      if (isset($link['href']) && ($link['href'] == $_GET['q'] || ($link['href'] == '<front>' && drupal_is_front_page()))&& (empty($link['language']) || $link['language']->language == $language_url->language))   {
         $class[] = 'active';
       }
       
@@ -374,11 +381,10 @@ function Digital_Grinnell_art_links_html_output_D7($links) {
         }
         $link_output = '<span' . $span_attributes . '>' . $link['title'] . '</span>';
       }
-		
-		
-        
 
-	}
+
+	} */
+
 	return $output;
 }
 

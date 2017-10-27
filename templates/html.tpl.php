@@ -22,5 +22,7 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+<div class="device-md visible-md"></div>
+<div class="device-lg visible-lg"></div>
 </body>
 </html>

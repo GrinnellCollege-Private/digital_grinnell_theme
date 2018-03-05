@@ -72,7 +72,7 @@ div.view.view-dg7-collection div.view-content div.views-row div.views-field.view
 }
 
 div.view.view-dg7-collection div.view-content div.views-row div.views-field.views-field-PID span.field-content div.wrapper div.left a img {
-  width: 150px !important;
+  max-width: 150px;
   max-height: 200px;
 }
 

@@ -1,11 +1,13 @@
 /* Created by Artisteer v4.2.0.60623 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400italic');
 
-/* Defining the muddy red/brown in the newest Grinnell theme... */
+/* Defining the official Grinnell scarlet */
 
 :root {
-    --grinnell-red: #9E4024;
+    --grinnell-red: #DA291C;
 }
 
 /* Styles from the 'Collections' view defined in module dg7 */
@@ -15,14 +17,9 @@ div.collection-value h3 {
 }
 
 .intro-text {
-    background: #FAE6C1;
-    padding: 0px 25px 60px 25px;
-    border: 1px solid #E3C181;
-    border-radius: 10px;
-}
-
-.intro-text-no-form {
-    padding: 25px;
+    background:#FFFFFF;
+    padding:0px 25px 10px 25px;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .view-header {
@@ -3371,3 +3368,37 @@ div.announcements {
   display: none;
 }
 
+/* New styles for Scarlet & White re-theme 8/2018 */
+
+.collection-banner-text {
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+}
+
+.collection-banner-text {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+h1, h2, h3 {
+    font-family: "Libre Baskerville" !important;
+    font-weight: 700;
+}
+
+.collection-tile-text: hover {
+	text-decoration: none;
+	color: #093043;
+}
+
+hr {
+    border-top: 1px solid #CCCCCC;
+}
+
+.collection-value h3{
+	text-indent: 0 !important;
+}
+
+h3 a {
+	font-family: "Noto Serif", serif !important;
+}

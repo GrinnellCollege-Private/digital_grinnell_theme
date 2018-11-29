@@ -1,0 +1,31 @@
+{
+    "name": "digitalgrinnell/digital_grinnell_theme",
+    "description": "Drupal Bootstrap custom theme for Digital.Grinnell.edu",
+    "type": "drupal-custom-theme",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Mark A. McFate",
+            "role": "Creator"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "require": {
+        "drupal/bootstrap": "^3.11"
+    },
+    "package": {
+        "name": "digital_grinnell_theme",
+        "version": "dev-master",
+        "type":"drupal-custom-theme",
+        "source": {
+            "url": "https://github.com/DigitalGrinnell/digital_grinnell_theme.git",
+            "type": "git",
+            "reference": "master"
+        }
+    }
+}

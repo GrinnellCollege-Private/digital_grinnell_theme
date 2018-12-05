@@ -127,9 +127,10 @@ function Digital_Grinnell_preprocess_page(&$vars) {
   if (count($address_parts) > 3 && $address_parts[1] === 'islandora' && $address_parts[2] === 'object') {
     // OK, we need to take action.  Strip the object PID from the $uri and determine what to add based on that.
     $pid = str_replace('%3A', ':', $address_parts[3]);
-    //Below added JMB 11/14/18 to fix problems caused by Facebook adding tracking code to the ends of URLs embedded in Facebook posts
-    list($pid, $garbage) = explode('?',$pid);
-
+    // Below added JMB 11/14/18 to fix problems caused by Facebook adding tracking code to the ends of URLs embedded in Facebook posts.
+    // Modified by MAM 04-Dec-2018 so that URLs that have no trailing '?' do not produce invalid offset notices.
+    if (strpos($pid, '?') !== false) { list($pid, $garbage) = explode('?', $pid); }
+	    
     if (!empty($vars['tabs'][0])) {
       // Copy $vars['tabs'][0], the "View" button, as an additional menu_primary_local_tasks tab and change
       // it's properties to yield a new "Print a Cover Sheet" button.
